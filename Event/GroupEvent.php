@@ -13,8 +13,9 @@ namespace FOS\UserBundle\Event;
 
 use FOS\UserBundle\Model\GroupInterface;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\EventDispatcher\Event;
 
-class GroupEvent extends EventBC
+class GroupEvent extends Event
 {
     /**
      * @var GroupInterface
